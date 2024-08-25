@@ -18,8 +18,8 @@
 # de textos de entrada formatada segundo o exemplo de saída acima. Observe as letras maiúsculas e
 # minúsculas, e os pontos utilizados na formatação da linha de saída apresenta acima. 
 
-# ALTERAR NÚMERO DO TESTE PARA TESTES DIFERENTES
-with open("testes/teste3.txt", "r") as file:
+# ALTERAR NÚMERO DO TESTE ENTRE 1 E 3 PARA TESTES DIFERENTES
+with open("testes/teste1.txt", "r") as file:
     arquivo = file.readlines()
 
 numOperacoes = int(arquivo[0])
